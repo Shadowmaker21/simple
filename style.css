@@ -1,0 +1,141 @@
+/* CSS Document */
+
+body {
+	background-color:#EFEFEF;
+	font-family:"Trebuchet MS", sans-serif;
+	}
+	
+a {
+	text-decoration: none;
+	color:#0000ff;
+	
+	}
+	
+a:hover {
+	color:#ff0000;
+}
+
+#main_container {
+	
+	width: auto;
+	border: #000000 1px solid;
+	margin: auto;
+	background-color:#6e7592;
+	}
+	
+#header {
+	height: 150px;
+	width: auto;
+	background-size: contain;
+	background-position: center center;
+	background-image: url(images/logo.png);
+	background-repeat: no-repeat;
+	}
+	
+h1 {
+	size:30px;
+	float:right;
+	vertical-align:middle;
+	margin: 10px 20px 0 0;
+	font-family: Impact, Arial, Helvetica, sans-serif;
+	}
+	
+h2 {
+	padding-left: 5px;
+	margin: 5px 0px 0px 0px;
+	}
+	
+p, table {
+	size: 15px;
+	margin:0px;
+	padding:13px;
+	text-align:justify;
+	}
+
+
+#navigation {
+	width:100%;
+	border-top:  #000000 1px solid;
+	border-bottom: #000000 1px solid;
+	text-align:center;
+	}
+#navigation a {
+	padding:3px;
+	}
+	
+#content {
+	width:100%;
+	}
+	
+#footer {
+	width:100%;
+	border-top:  #000000 1px solid;
+	text-align:center;
+	font-size:9px;
+	}
+#tabel {
+	width: 100%;
+	background-color:#ffffff;	
+	padding:2px;
+	border:1px solid #222222;
+	margin:2px;
+}	
+#tabel th {
+	color:#ffffff;
+	background-color:#222222;
+	padding:5px;	
+}
+
+
+.nav {
+	list-style: none;
+	float: left;
+	text-align: center;
+}
+.nav li {
+	display: inline-block;
+	position: relative;
+	float: none;
+	background: #c41617;
+}
+.nav li a {
+	display: inline-block;
+	width: 150px;
+	line-height: auto;
+	text-decoration: none;
+	color: #fff;
+}
+.nav li li {
+	float: left;
+}
+.nav li li a {
+	display: block;
+}
+.nav li:hover {
+	background: #000;
+}
+.nav ul {
+	position: absolute;
+	left: 0;
+	padding: 0;
+	display: none;
+}
+.nav li:hover ul ul {
+	display: none;
+}
+.nav li:hover ul ul ul {
+	display: none;
+}
+.nav li:hover ul {
+	display: block;
+}
+.nav li li:hover ul {
+	margin-top: -30px;
+	margin-left: 250px;
+	display: block;
+}
+.nav li li li:hover ul {
+	margin-top: -30px;
+	margin-left: 250px;
+	display: block;
+}
